@@ -1,0 +1,45 @@
+<!DOCTYPE HTML> 
+<html>
+    <head>
+        <title>Coding Challenge 1</title>
+        
+    </head>
+    <body bgcolor="lightblue">
+        <script type="text/javascript">
+
+            //Mass and Height of Mark
+            //prompt is used to take value from user
+            var MarkMass = prompt("Enter Mass value of Mark's in kg");
+            var MarkHeight = prompt("Enter Height value of Mark's in meter");
+
+            //Mass and Height of John
+            var JohnMass = prompt("Enter Mass value of John's in kg");
+            var JohnHeight = prompt("Enter Height value of John's in meter");
+
+            //BMI calculation of Mark
+            var MarkBMI = MarkMass / (MarkHeight * MarkHeight);
+            console.log(MarkBMI);
+            document.write(MarkBMI+"<br><br><br>");
+
+            //BMI calculation of John
+            var JohnBMI = JohnMass / (JohnHeight * JohnHeight);
+            console.log(JohnBMI);
+            document.write(JohnBMI+"<br><br><br>");
+
+            //to see whether Mark's BMI is greater than John's BMI or not
+            var MarkGreaterBMI = MarkBMI > JohnBMI;
+
+            //to see whether John's BMI is greater than Mark's BMI or not
+            var JohnGreaterBMI  = JohnBMI > MarkBMI;
+
+            //Display the result
+            console.log("Is Mark's BMI higher than John's BMI?"+MarkGreaterBMI);
+            document.write("Is Mark's BMI higher than John's BMI?"+MarkGreaterBMI+"<br><br><br>");
+            console.log("Is John's BMI higher than Mark's BMI?"+JohnGreaterBMI);
+            document.write("Is John's BMI higher than Mark's BMI?"+JohnGreaterBMI+"<br><br><br>");
+
+        </script>
+    </body>
+
+</html>
+

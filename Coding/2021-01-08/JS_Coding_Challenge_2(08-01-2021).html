@@ -1,0 +1,99 @@
+<!DOCTYPE HTML> 
+<html>
+    <head>
+        <title>Coding Challenge 2</title>
+        
+    </head>
+    <body bgcolor="lightgrey" >
+        <script type="text/javascript">
+
+            //First time Scoring result
+
+            //Average score of John
+            var JohnAverageScore = (89+120+103)/3;
+
+            //Average score of Mike
+            var MikeAverageScore = (116+94+123)/3;
+
+            //condition for checking winner team
+            if(JohnAverageScore > MikeAverageScore)
+            {
+                console.log("John's team Average score is"+' '+JohnAverageScore+" and John's Team win the match");
+                document.write("John's team Average score is"+' '+JohnAverageScore+" and John's Team win the match"+"<br><br>");
+            }
+            else
+            {
+                console.log("Mike's team Average score is"+' '+MikeAverageScore+" and Mike's Team win the match");
+                document.write("Mike's team Average score is"+' '+MikeAverageScore+" and Mike's Team win the match"+"<br><br>");
+            }
+
+            //result after changing the score
+
+            var JohnAverageScore_2 = (90+100+120)/3;
+            var MikeAverageScore_2 = (120+90+100)/3;
+
+            if(JohnAverageScore_2 > MikeAverageScore_2)
+            {
+                console.log("John's team Average score is"+' '+JohnAverageScore_2+" and John's Team win the match");
+                document.write("John's team Average score is"+' '+JohnAverageScore_2+" and John's Team win the match"+"<br><br>");
+            }
+            else if(JohnAverageScore_2 == MikeAverageScore_2)
+            {
+                console.log("Mike's team Average score is"+' '+MikeAverageScore_2+" and John's Team Average score is"+' '+JohnAverageScore_2+" and the match is draw");
+                document.write("Mike's team Average score is"+' '+MikeAverageScore_2+" and John's Team Average score is"+' '+JohnAverageScore_2+" and the match is draw"+"<br><br>");
+            }
+            else
+            {
+                console.log("Mike's team Average score is"+' '+MikeAverageScore_2+" and Mike's Team win the match");  
+                document.write("Mike's team Average score is"+' '+MikeAverageScore_2+" and Mike's Team win the match"+"<br><br>"); 
+            }
+
+            //Marry's Team Score
+
+            var MarryAverageScore = (97+134+105)/3;
+
+            if(MarryAverageScore > JohnAverageScore && MarryAverageScore > MikeAverageScore)
+            {
+                console.log("Marry's team Average score is"+' '+MarryAverageScore+" and Marry's Team win the match");
+                document.write("Marry's team Average score is"+' '+MarryAverageScore+" and Marry's Team win the match"+"<br><br>");
+            }
+            else if(JohnAverageScore > MarryAverageScore &&  JohnAverageScore > MikeAverageScore)
+            {
+                console.log("John's team Average score is"+' '+JohnAverageScore+" and John's Team win the match");
+                document.write("John's team Average score is"+' '+JohnAverageScore+" and John's Team win the match"+"<br><br>");
+            }
+            else
+            {
+                console.log("Mike's team Average score is"+' '+MikeAverageScore+" and Mike's Team win the match");
+                document.write("Mike's team Average score is"+' '+MikeAverageScore+" and Mike's Team win the match"+"<br><br>");
+            }
+
+            //Again Change the Score to generate different winners
+            var MarryAverageScore_2 = (100+120+90)/3;
+
+            if(MarryAverageScore_2  == JohnAverageScore_2 && JohnAverageScore_2 == MarryAverageScore_2)
+            {
+                console.log("Mike's team Average score is"+' '+MikeAverageScore_2+" and John's Team Average score is"+' '+JohnAverageScore_2+" and Marry's Team Average score is"+MarryAverageScore_2+" and the match is draw");
+                document.write("Mike's team Average score is"+' '+MikeAverageScore_2+" and John's Team Average score is"+' '+JohnAverageScore_2+" and Marry's Team Average score is "+MarryAverageScore_2+" and the match is draw"+"<br><br>");
+            }
+            else if(JohnAverageScore > MarryAverageScore &&  JohnAverageScore > MikeAverageScore)
+            {
+                console.log("John's team Average score is"+' '+JohnAverageScore+" and John's Team win the match");
+                document.write("John's team Average score is"+' '+JohnAverageScore+" and John's Team win the match"+"<br><br>");
+            }
+            else if(MarryAverageScore > JohnAverageScore && MarryAverageScore > MikeAverageScore)
+            {
+                console.log("Marry's team Average score is"+' '+MarryAverageScore+" and Marry's Team win the match");
+                document.write("Marry's team Average score is"+' '+MarryAverageScore+" and Marry's Team win the match"+"<br><br>");
+            }
+            else
+            {
+                console.log("Mike's team Average score is"+' '+MikeAverageScore+" and Mike's Team win the match");
+                document.write("Mike's team Average score is"+' '+MikeAverageScore+" and Mike's Team win the match"+"<br><br>");
+            }
+
+        </script>
+    </body>
+
+</html>
+

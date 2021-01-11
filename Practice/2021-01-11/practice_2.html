@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Javascript Practice 2</title>
+    </head>
+
+    <body>
+        <h1><center>Ternary Operator and Switch Operator</center></h1>
+
+        <script>
+            var day = 'Monday';
+
+            switch(day)
+            {
+                case 'Monday':
+                    console.log('Today is Monday');
+                    break;
+                case 'Tuesday':
+                    console.log('Today is Tuesday');
+                    break;
+                case 'Wednesday':
+                    console.log('Today is Wednesday');
+                    break;
+                default:
+                    console.log('Invalid statement');
+            }
+
+            var age=15;
+
+            switch(true)
+            {
+                case age < 13 :
+                    console.log('He is a boy');
+                    break;
+                case age > 13 && age < 18:
+                    console.log("He is Teenager");
+                    break;
+                case age > 18 :
+                    console.log("He is a man");
+                    break;
+                default :
+                    console.log("Invalid statement");                    
+            }
+
+            //Ternary Operator
+            console.log(age > 18 ? "Ready For Vote" : "Not ready for vote");
+
+        </script>
+    </body>
+</html>
