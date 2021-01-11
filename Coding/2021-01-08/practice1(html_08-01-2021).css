@@ -1,0 +1,47 @@
+.divbig
+{
+  margin-left : 420px;
+}
+
+.div2
+{
+  margin : auto;
+  margin-top : 220px;
+  margin-left : 23px;
+  float : left;
+  width: 15%;
+  border: 3px solid lightgrey;
+  padding : 9px;
+}
+
+.innerdiv
+{
+  align-items : center;
+  display : flex;
+  background-color : black;
+  height: 315px;
+  width : 215px;
+  margin : auto;
+}
+
+.text
+{
+  margin-left : auto;
+  margin-right : auto;
+  font-style : italic;
+  color : darkgray;
+}
+
+
+
+.image
+{
+  height : 30px;
+  width : 215px;
+  margin : auto;
+  display : block;
+  text-align : center;
+  font-style : italic;
+  color : grey;
+  background-color: lightgrey;
+}
