@@ -18,7 +18,7 @@ function calbill(bill)
     }
 }
 
-//array of tip
+//array of tips
 var tip = [calbill(bill[0]),calbill(bill[1]),calbill(bill[2])];
 for(var i=0;i<bill.length;i++)
 {
