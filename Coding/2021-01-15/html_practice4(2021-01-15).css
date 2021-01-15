@@ -1,0 +1,24 @@
+ 
+        .table
+        {
+            border: 1px solid black; 
+           margin-top:50px;
+           width: auto;
+           
+        }
+         .th, .td { 
+             text-align: center;
+            border: 1px solid black; 
+        }
+
+        .image
+        {
+            width : 120px;
+            height: 120px;
+        }
+
+        .text
+        {
+            margin-left: 730px;
+            margin-top: 90px;
+        }
