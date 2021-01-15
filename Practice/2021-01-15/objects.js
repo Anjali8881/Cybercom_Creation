@@ -17,7 +17,7 @@ const anjali_sharma = {
     age : null
 };
 
-if(BarProp.age)
+if(anjali_sharma.age)
 {
     console.log(age);
 }
