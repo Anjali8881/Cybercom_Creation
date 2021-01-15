@@ -17,3 +17,12 @@ const anjali_sharma = {
     age : null
 };
 
+if(BarProp.age)
+{
+    console.log(age);
+}
+
+else{
+    console.log('age is null');
+}
+
