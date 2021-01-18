@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Practice 7 2021-01-18</title>
+        <link rel="stylesheet" type="text/css" href="HTML_Practice_7(2021-01-18).css">
+        <script src="HTML_Practice_7(2021-01-18).js"></script>
+    </head>
+
+    <body>
+        <div class="fulldiv">
+            <div class="formdiv">
+        <form  >
+            <fieldset>
+                <table>
+                <legend>Your Aaddress</legend>
+                <tr>
+                    <td><label>First Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+                    <td><input type=text name="firstname" id="firstname"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Last name</label></td>
+                    <td><input type=text name="lastname" id="lastname"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Street</label></td>
+                    <td><input type=text name="street" id="street"></td>
+                </tr>
+
+                <tr>
+                    <td><label>City</label></td>
+                    <td><input type=text name="city" id="city"><br></td>
+                </tr>
+            </table>
+            </fieldset><br>
+
+            <fieldset>
+                <table>
+                <legend>Additional details</legend>
+                <tr>
+                    <td><label>Biography&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+                    <td><textarea name="bio" id="bio" rows="3" cols="25"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label>Image</label></td>
+                    <td><input type="file" name="image" id="image"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Age Group</label></td>
+                    <td><select name="age" id="age">
+                        <option value="0 to 9 years">0 to 9 years</option>
+                        <option value="10 to 19 years">10 to 19 years</option>
+                        <option value="20 to 29 years">20 to 29 years</option>
+                        <option value="30 to 39 years">30 to 39 years</option>
+                    </select> </td>
+                </tr>
+            </table>
+            </fieldset><br>
+
+            <fieldset>
+                <table>
+                <legend>Interests</legend>
+                <tr>
+                    <td><label>Hobbies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+                    <td><textarea name="bio" id="bio" rows="4" cols="12">Playing soccer Dancing Gardening Watching movies</textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label>Favourite car?</label></td>
+                    <td><select name="car" id="car">
+                        <option value="volvo">volvo</option>
+                        <option value="swift">swift</option>
+                        <option value="creta">creta</option>
+                        <option value="kia">kia</option>
+                    </select> </td>
+                </tr>
+
+                <tr>
+                    <td><label>Favourite public transport?&nbsp;&nbsp;</label></td>
+                    <td><textarea name="transport" id="transport" rows="4" cols="7">Ground &nbsp;&nbsp;Train &nbsp;&nbsp;&nbsp;Bus Water</textarea></td>
+                </tr>
+            </table>
+            </fieldset><br>
+            <input class="submit" type="submit" value="Submit" id="submit" onclick="add()"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Reset" id="reset" />
+        </form>
+    </div>
+    </div>
+    </body>
+</html>

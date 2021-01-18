@@ -1,0 +1,23 @@
+.fulldiv {
+    width: 100%;  
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .formdiv {
+    margin-top: 100px;
+    width: 800px;
+    background: white;
+  }
+  textarea {
+    font-family: sans-serif; 
+    
+  }
+
+  .submit
+  {
+      margin-left: 330px;
+  }
