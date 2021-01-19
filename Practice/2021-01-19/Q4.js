@@ -8,20 +8,24 @@ o Display the data in one table format another page that is, view.html*/
 
 function add()
 {
-    var submit = document.getElementById('submit');
-	if(submit){
-	var usrname = document.getElementById('name').value;
-	var email = document.getElementById('email').value;
-	var dateOfBirth = document.getElementById('dob').value;
-		
-	var person = {
-			name : usrname,
-			emailId : email,
-			dob : dateOfBirth
-		};
-            document.getElementById('input_form').textContent = person.name;
-            document.getElementById('input_form').textContent = person.emailId;
-            document.getElementById('input_form').textContent = person.dob;
-		console.log(person);
-	}
+    if(submit)
+    {
+        var username = document.getElementById('name').value;
+        var useremail = document.getElementById('email').value;
+        var userdob = document.getElementById('dob').value;
+
+        var person = 
+        {
+            name : username,
+            email : useremail,
+            DateOfBirth : userdob
+        };
+
+        localStorage.setItem('username',person['name']);
+        localStorage.setItem('useremail',person['email']);
+        localStorage.setItem('userdob',person['DateOfBirth']);
+        
+        
+    }
+
 }
