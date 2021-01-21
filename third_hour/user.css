@@ -1,0 +1,28 @@
+
+  .fulldiv {
+    width: 60%;  
+    height: 550px;;
+    justify-content: center;
+    margin-left: 500px ;
+    margin-top: 200px;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid black;
+    ;
+  }
+
+  .navdiv
+  {
+    width :20%;
+    height: 580px;
+    margin-left: -15px;
+    border : 1px solid black;
+    margin-top: -15px;
+    background-color: chocolate;
+    float: left;
+  }
+
+  .text
+  {
+      margin-top: -100px;
+  }
