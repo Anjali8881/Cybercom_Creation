@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+
+    <body>
+        <div class="fulldiv">
+            <label><center><b>LOGIN</b></center></label>
+
+            <div class="formdiv">
+                <form >
+
+        
+                    <div class="input">
+                        <input class="input100" type="email" id = "loginEmail" name="loginEmail" placeholder="Email" required>
+                    </div>
+        
+                    <div class="input">
+                        <input class="input100" type="password" id = "loginPassword" name="loginPassword" placeholder="Password" required>
+                    </div>
+
+                    <div class="input">
+                        <input type="submit" class="input200" name="loginButton" value="LOGIN"  id="loginButton" onclick="loginNow()">
+                    </div>
+
+                    <div>
+                        <label><center>OR</center></label>
+                    </div>
+        
+                    <div class="input">
+                        <input type="submit" class="input200" name="registerButton" value="REGISTER NOW" id="registerButton" onclick="loginNow()">
+                    </div>
+                    
+                    
+                </form>
+            </div>
+        </div>
+
+        <script src="login.js"></script>
+    </body>
+</html>

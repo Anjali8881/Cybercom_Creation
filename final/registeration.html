@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" type="text/css" href="registration.css">
+    </head>
+
+    <body>
+        <div class="fulldiv">
+            <label><center><b>Registeration</b></center></label>
+
+            <div class="formdiv">
+                <form >
+
+        
+                    <div class="input">
+                        <input class="input100" type="text" id = "adminName" name="adminName" placeholder="Name" required>
+                    </div>
+        
+                    <div class="input">
+                        <input class="input100" type="email" id = "adminEmail" name="adminEmail" placeholder="Email" required="">
+                    </div>
+
+                    <div class="input">
+                        <input class="input100" type="password" id = "adminPassword" name="adminPassword" placeholder="Password" required="">
+                    </div>
+
+                    <div class="input">
+                        <input class="input100" type="password" id = "adminConfirmPassword" name="adminConfirmPassword" placeholder="Confirm Password" required>
+                    </div>
+
+                    <div class="input">
+                        <select class="input300" id="adminCity">
+                            <option value="cityvalue">Select City</option>
+                            <option value="guj">Ahmedabad</option>
+                            <option value="raj">Jaipur</option>
+                            <option value="mp">Gwalior</option>
+                            <option value="delhi">Noida</option>
+                         </select>   
+                    </div>
+
+                    <div class="input">
+                        <select class="input300" id="adminState">
+                            <option value="statevalue">Select state</option>
+                            <option value="guj">Gujarat</option>
+                            <option value="raj">Rajasthan</option>
+                            <option value="mp">Madhya Pradesh</option>
+                            <option value="delhi">Delhi</option>
+                         </select>   
+                    </div>
+
+                    <div class="input">
+                        <input type="checkbox" id="termsandcondition" name="termsandcondition" value="termsandcondition">&nbsp;<label for="termsandcondition">Terms & Conditions</label><br>
+                    </div>
+
+                    <div class="input">
+                        <input type="submit" class="input200" name="registerButton" value="REGISTER NOW" id="registerbutton" onclick="registerNow()">
+                    </div>
+                    
+                    
+                </form>
+            </div>
+        </div>
+
+        <script src="registeration.js"></script>
+    </body>
+</html>
