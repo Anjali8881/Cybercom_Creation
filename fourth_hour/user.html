@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>User Details Enter Page</title>
+        <link rel="stylesheet" type="text/css" href="user.css">
+    </head>
+
+    <body> 
+        <div class="fulldiv">
+            
+            <div class="navdiv">
+                <div><label>Hello , name</label></div>
+		        <div><button onclick="displaydashboard()">DashBoard</button></div>
+		        <div><button onclick="addUser()">Users</button></div>
+		        <div><button onclick="sessionPage()">Login Session</button></div>
+		        <div><button onclick="logout()">Logout</button></div>
+            </div>
+
+            <label ><center><b>Update User</b></center></label><br>
+
+            <form>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="username" name="username" placeholder="Enter Name" required>&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" id="useremail" name="useremail" placeholder="Enter email" required>&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" id="userpassword" name="userpassword" placeholder="Enter Password" required>&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="userdob" name="userdob" placeholder="Enter Date Of Birth" required><br><br>
+                <input type="button"  class="btn" id="updateuser" name="updateuser" value="Update User" onclick="updateUser()">
+            </form>
+
+            
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label ><b>User List</b></label><br>
+
+            <div class="divtable">
+
+                <table align="center" id="usertable">
+                   
+                </table>
+
+            </div>
+        </div>
+        <script src="user.js"></script>
+    </body> 
+</html>
