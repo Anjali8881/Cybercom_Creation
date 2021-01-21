@@ -1,0 +1,46 @@
+.fulldiv {
+    width: 30%;  
+    height: 500px;;
+    justify-content: center;
+    margin-left: 650px ;
+    margin-top: 200px;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid black;
+    ;
+  }
+
+  .formdiv {
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 110px;
+    height: 350px;
+    background: lightsalmon;
+    border: 1px solid black;
+  }
+
+  .input{
+    width: 80%;
+    border-bottom: 1px solid #b2b2b2;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  .input100 {
+    
+    padding-left: 20px;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    height: 45px;
+  }
+
+  .input200 {
+    
+    padding-left: 20px;
+    font-size: 15px;
+    display: block;
+    width: 110%;
+    height: 45px;
+    background-color: orangered;
+  }
