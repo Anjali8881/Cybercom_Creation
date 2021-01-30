@@ -1,0 +1,41 @@
+<producers>
+    <producer>
+        <name>Anjali Sharma</name>
+        <age>23</age>
+        <birthday>
+            <date>21</date>
+            <month>November</month>
+            <year>1998</year>
+        </birthday>
+    </producer>
+
+    <producer>
+        <name>Vanshika Agarwal</name>
+        <age>22</age>
+        <birthday>
+            <date>18</date>
+            <month>April</month>
+            <year>1997</year>
+        </birthday>
+    </producer>
+
+    <producer>
+        <name>Ronak Jain</name>
+        <age>24</age>
+        <birthday>
+            <date>18</date>
+            <month>August</month>
+            <year>1997</year>
+        </birthday>
+    </producer>
+
+    <producer>
+        <name>Mustufa</name>
+        <age>25</age>
+        <birthday>
+            <date>11</date>
+            <month>October</month>
+            <year>1996</year>
+        </birthday>
+    </producer>
+</producers>
