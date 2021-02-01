@@ -1,0 +1,29 @@
+.table{
+    margin-top: 100px;
+    border: 2px solid grey;
+    
+}
+
+.th{
+    border: 1px solid black;
+    background-color: burlywood;
+    padding: 2px;
+    color: red;
+    
+}
+.span{
+    color: red;
+}
+
+
+
+.td{
+    border: 1px solid black;
+    background-color: lightseagreen;
+    padding: 2px;
+    
+}
+
+.button{
+    background-color: lightgreen;
+}

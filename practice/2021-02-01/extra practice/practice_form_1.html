@@ -1,0 +1,130 @@
+
+<html>
+    <head>
+        <title>Form Practice 1</title>
+        <link rel="stylesheet" type="text/css" href="practice_form_1.css">
+    </head>
+
+    <body>
+        <form action="practice_form_1.php" method="POST" onsubmit="return checkvalidation()" enctype="multipart/form-data">
+        <table align="center" class="table">
+            <tr>
+                <th colspan="2" class="th">User Form</th>
+            </tr>
+            
+            <tr>
+                <td class="td">Enter Name</td>
+                <td class="td"><input type="text" name="name" id="name" ><br>
+                     <span><label id="nameErr"></label></span></td>
+            </tr>
+
+            <tr>
+                <td class="td">Enter Password</td>
+                <td class="td"><input type="password" name="password" id="password"><br>
+                                <span><label id="passwordErr"></label></span></td>
+            </tr>
+
+            <tr>
+                <td class="td">Enter Address</td>
+                <td class="td"><textarea rows="4" cols="40" id="address" name="address"></textarea><br>
+                              <span><label id="addressErr"></label></span></td>
+            </tr>
+
+            <tr>
+                <td class="td">Select Game</td>
+                <td class="td"><input type="checkbox" id="hockey" name="game[]" value="Hockey">
+                                <label for="game1">Hockey</label><br>
+                               <input type="checkbox" id="football" name="game[]" value="Football">
+                               <label for="game2">Football</label><br>
+                               <input type="checkbox" id="badminton" name="game[]" value="Badminton">
+                               <label for="game3">Badminton</label><br>
+                               <input type="checkbox" id="cricket" name="game[]" value="Cricket">
+                               <label for="game4">Cricket</label><br>
+                               <input type="checkbox" id="volleyball" name="game[]" value="volleyball">
+                               <label for="game5">Volleyball</label>
+                               <br><span><label id="gameErr"></label></span></td>
+            </tr>
+
+            <tr>
+                <td class="td">Gender</td>
+                <td class="td"><input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>&nbsp;&nbsp;
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <span><label id="genderErr"></label></span></td>
+            </tr>
+
+            <tr>
+                <td class="td">Select your age</td>
+                <td class="td"><select name="age" id="age">
+                    <option value="selectvalue">select</option>
+                    <option value="30">30</option>
+                    <option value="29">29</option>
+                    <option value="28">28</option>
+                    <option value="27">27</option>
+                    <option value="26">26</option>
+                    <option value="25">25</option>
+                    <option value="24">24</option>
+                    <option value="23">23</option>
+                    <option value="22">22</option>
+                    <option value="21">21</option>
+                    <option value="20">20</option>
+                    <option value="19">19</option>
+                    <option value="18">18</option>
+                    <option value="17">17</option>
+                </select><br>
+                <span><label id="ageErr"></label></span></td>
+            </tr>
+
+            <tr>
+                <td class="td" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" name="file" id="file" >
+                <br><span><label id="fileErr"></label></span></td>
+            </tr>
+
+            <tr>
+                <td class="td" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" name="reset" id="reset" value="Reset" class="button">&nbsp;&nbsp;
+                                           <input type="submit" name="submit" id="submit" value="Submit Form" class="button" ></td>
+            </tr>
+        </table>
+    </form>
+    <script src="practice_form_1.js"></script>
+  <!--  <?php
+
+    echo 'Welcome';
+
+    $name = $pass = $address = $game[] = $gender = $age = $file = '';
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST"){
+        echo 'Welcome';
+        $name = $_POST['name'];
+        $pass = $_POST['password'];
+        $address = $_POST['address'];
+        $game[] = $_POST['game'];
+        $gender = $_POST['gender'];
+        $age = $_POST['age'];
+        $file = $_POST['file'];
+    
+    }
+
+
+?>
+
+<html>
+    <table>
+        <tr>
+            <td><?php echo $name;?></td>
+            <td><?php echo $pass;?></td>
+            <td><?php echo $address; ?>
+            <td><?php foreach($game as $gamevalues){
+                echo $gamevalues;}?></td>
+            <td><?php echo $gender; ?></td>
+            <td><?php echo $age; ?></td>
+            <td><?php echo $file; ?></td>
+            </tr>
+
+    </table>
+</html>-->
+    </body>
+
+    
+</html>
