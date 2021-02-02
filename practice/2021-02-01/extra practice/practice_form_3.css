@@ -1,0 +1,61 @@
+.form{
+    width: 700px;
+    margin-left: 400px;
+    margin-top: 70px;
+    height: 1000px;
+    display: flex;
+    
+}
+
+.div{
+   background-color: #1c0f2a;
+}
+
+
+.divheader{
+    background-color:#ff6500;
+    width: 500px;
+    height: 30px;
+    display: flex;
+    
+}
+
+.divvalues{
+    background-color: #1c0f2a;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: -500px;
+    height: 490px;
+}
+
+
+.divbottom{
+    background-color: #ff9000;
+    width: 500px;
+    height: 60px;
+    margin-top: 520px;
+    margin-left: -500px;
+}
+
+.text{
+    
+    color:  #808000;
+}
+
+.span{
+    color: red;
+}
+
+.buttonsubmit{
+    height: 30px;
+    width: 90px;
+    background-color: #30C078;
+    margin-top: 10px;
+}
+
+.buttonreset{
+    height : 30px;
+    width : 90px;
+    background-color: #ff3232;
+    margin-top: 10px;
+}

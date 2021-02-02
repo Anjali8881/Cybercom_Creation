@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Practice 5</title>
+    <link rel="stylesheet" type="text/css" href="practice_form_5.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <!-- action = "<?php echo $_SERVER['PHP_SELF'];?>"-->
+    <div class="fulldiv">
+        <form method="POST" action="practice_form_5.php" onsubmit="return validation()" enctype="multipart/form-data">
+            <div class="header"><i class="fa fa-lock" aria-hidden="true"></i>&nbsp;&nbsp;Sign In</div>
+            <div class ='formcontentdiv'>
+                <div>E-mail address </div><br>
+                <div><input class="input" type="email" class = 'text' name="email" id="email" placeholder="mail@address.com"><span class="span">*<br>
+                    <label id="emailErr"></label></span></div><br>
+                <div>Password</div><br>
+                <div><input class="input" type="password" class = 'text' name="password" id="password"><span class="span">*<br>
+                    <label id="passwordErr"></label></span></div><br>
+
+                <div><input type="submit" class="btn-submit" name="submit" value='Sign in' id="submit"></div>
+            </div>
+        
+        </form>
+    </div>
+    <script src="js_form_5.js"></script>
+
+	
+</body>
+</html>
