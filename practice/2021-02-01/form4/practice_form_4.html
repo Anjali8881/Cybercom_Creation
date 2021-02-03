@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Form Practice 4</title>
+        <link rel="stylesheet" type="text/css" href="practice_form_4.css">
+    </head>
+
+    <body>
+        <div class="fulldiv">
+        <div class="contactform">
+            <div class="contactus"><br><br>
+                <span class="text"><center>CONTACT US!</center></span>
+            </div><br><br>
+
+           <form action="practice_form_4.php" method="POST" onsubmit="return checkvalidation()" enctype="multipart/form-data">
+                <input type="text" name="name" id="name" class="inputtype1" placeholder="    Name...">&nbsp;<span class="span">*<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label id="nameErr"></label></span><br><br>
+                <input type="email" name="email" id="email" class="inputtype1" placeholder="    Email...">&nbsp;<span class="span">*<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label id="emailErr"></label></span><br><br>
+                <input type="text" name="subject" id="subject" class="inputtype1" placeholder="    Subject...">&nbsp;<span class="span">*<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label id="subjectErr"></label></span><br><br>
+                <input type="text" name="message" id="message" class="inputtype2" placeholder="    Message...">&nbsp;<span class="span">*<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label id="messageErr"></label></span><br><br>
+                <input type="submit" name="submit" id="submit" class="button" value="SEND MESSAGE">
+           </form>
+        </div>
+    </div>
+    <script src="practice_form_4.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,27 @@
+.div{
+    margin-top: 50px;
+    border: 1px;
+    width: 950px;
+    height: 500px;
+    background-color: lightgreen;
+    margin-left: 350px;
+}
+
+.form{
+    width: 800px;
+    margin-left: 60px;
+    margin-top: 70px;
+    height: 450px;
+    background-color: lime;
+    border: 2px solid black;
+}
+
+.spantextcolor{
+    color: red;
+}
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+
+}
