@@ -1,0 +1,40 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    line-height: 40px;
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.icons{
+    width: 5px;
+    height: 5px;
+}
+
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+  }
+  
+  .success {background-color: #4CAF50;} /* Green */
+  .success:hover {background-color: #46a049;}
+
+  .contents div{
+      text-align: center;
+      color: brown;
+      font-size: 20px;
+      margin : 20px auto;
+  }
+
+  
